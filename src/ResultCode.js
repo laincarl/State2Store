@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Icon, Tooltip, Checkbox } from 'antd';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
-import './ResultCode.scss';
+import './ResultCode.less';
 
 const CheckboxGroup = Checkbox.Group;
 const propTypes = {

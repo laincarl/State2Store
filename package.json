@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "antd": "^3.13.6",
-    "react-booter": "git+https://github.com/laincarl/react-booter.git#alpha",
+    "react-booter": "git+https://github.com/laincarl/react-booter.git#master",
     "react-copy-to-clipboard": "^5.0.1"
   },
   "devDependencies": {

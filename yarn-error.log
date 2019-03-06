@@ -25,13 +25,14 @@ npm manifest:
     "scripts": {
       "start": "react-booter start --config ./config.js",
       "build": "react-booter build --config ./config.js",
-      "analyze": "react-booter analyze --config ./config.js"
+      "analyze": "react-booter analyze --config ./config.js",
+      "deploy": "git subtree push --prefix dist origin gh-pages"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
-      "antd": "^3.13.6",    
-      "react-booter": "^1.0.17",
+      "antd": "^3.13.6",
+      "react-booter": "git+https://github.com/laincarl/react-booter.git#master",
       "react-copy-to-clipboard": "^5.0.1"
     },
     "devDependencies": {
@@ -6368,7 +6369,7 @@ Lockfile:
   
   "react-booter@git+https://github.com/laincarl/react-booter.git#alpha":
     version "1.0.17"
-    resolved "git+https://github.com/laincarl/react-booter.git#153728fba297b73294c0d00fb61875bd39d690dd"
+    resolved "git+https://github.com/laincarl/react-booter.git#d577725f37ecb9499df5aca19e267576483ebc39"
     dependencies:
       "@babel/cli" "^7.0.0"
       "@babel/core" "^7.0.0"
